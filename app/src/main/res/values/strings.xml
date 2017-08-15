@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Memory Leak Simulation</string>
+    <string name="empty_activity">create dummy activity</string>
+    <string name="leaked_activity">create leak activity</string>
+    <string name="activities_statistics" formatted="false">%d activities is alive. %d activities is destroyed</string>
+    <string name="title_activity_leaking">LeakingActivity</string>
+    <string name="live_leaked_activity">Live leaked activity</string>
+    <string name="live_empty_activity">Live empty activity</string>
+    <string name="destroyed_empty_activity">Destroyed empty activity</string>
+    <string name="destroyed_leaked_activity">Destroyed leaked activity</string>
+    <string name="show_destroyed_activity_line">Show destroyed activity line</string>
+    <string name="hide_destroyed_activity_line">Hide destroyed activity line</string>
+</resources>

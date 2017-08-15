@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+   <color name="colorLiveLeakedActivity">#26a69a</color>
+    <color name="colorLiveEmptyActivity">#ba68c8</color>
+    <color name="colorDestroyedEmptyActivity">#bcaaa4</color>
+    <color name="colorDestroyedLeakedActivity">#cddc39</color>
+</resources>
