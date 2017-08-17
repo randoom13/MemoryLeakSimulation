@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/show_destroyed_activity_line"
+        android:title="@string/show_destroyed_activity_line"
+        android:visible="false"
+        app:showAsAction="withText" />
+
+    <item
+        android:id="@+id/hide_destroyed_activity_line"
+        android:title="@string/hide_destroyed_activity_line"
+        android:visible="false"
+        app:showAsAction="withText" />
+
+    <item
+        android:id="@+id/show_destroyed_leaked_activity_line"
+        android:title="@string/show_destroyed_leaked_activity_line"
+        android:visible="false"
+        app:showAsAction="withText" />
+    <item
+        android:id="@+id/hide_destroyed_leaked_activity_line"
+        android:title="@string/hide_destroyed_leaked_activity_line"
+        android:visible="false"
+        app:showAsAction="withText" />
+
+    <item
+        android:id="@+id/show_live_leaked_activity_line"
+        android:title="@string/show_live_leaked_activity_line"
+        android:visible="false"
+        app:showAsAction="withText" />
+
+    <item
+        android:id="@+id/hide_live_leaked_activity_line"
+        android:title="@string/hide_live_leaked_activity_line"
+        android:visible="false"
+        app:showAsAction="withText" />
+
+    <item
+        android:id="@+id/show_live_activity_line"
+        android:title="@string/show_live_activity_line"
+        android:visible="false"
+        app:showAsAction="withText" />
+
+    <item
+        android:id="@+id/hide_live_activity_line"
+        android:title="@string/hide_live_activity_line"
+        android:visible="false"
+        app:showAsAction="withText" />
+</menu>

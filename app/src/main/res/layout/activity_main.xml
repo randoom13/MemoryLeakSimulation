@@ -4,6 +4,8 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
+    <include layout="@layout/toolbar" />
+
     <LinearLayout
         android:id="@+id/buttons_panel"
         android:layout_width="match_parent"
@@ -14,6 +16,7 @@
             android:id="@+id/next_empty_activity"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
             android:layout_weight="1"
             android:text="@string/empty_activity" />
 
@@ -21,9 +24,9 @@
             android:id="@+id/next_leaked_activity"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
             android:layout_weight="1"
-            android:text="@string/leaked_activity"
-             />
+            android:text="@string/leaked_activity" />
     </LinearLayout>
 
     <com.github.mikephil.charting.charts.LineChart
