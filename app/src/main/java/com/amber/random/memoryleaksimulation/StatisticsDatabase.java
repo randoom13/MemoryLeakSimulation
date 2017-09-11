@@ -69,7 +69,7 @@ public class StatisticsDatabase {
         return count;
     }
 
-    public int activitiesCount() {
+    public int activitiesSum() {
         return mActivitiesList.size();
     }
 

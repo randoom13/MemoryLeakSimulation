@@ -6,8 +6,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 
 public class LeakingActivity extends AppCompatActivity {
-    private boolean mLeaking = false;
     public static String LEAK_STATE = "leaking_state";
+    private boolean mLeaking = false;
 
     public boolean isLeaking() {
         return mLeaking;
